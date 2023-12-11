@@ -1,0 +1,16 @@
+@import url(base.css);
+.listItem{
+    color: silver;
+}
+@media print, (max-aspect-ratio: 1/1) {
+    body {
+        padding-bottom: 15px;
+    }
+    img {
+        display: none;
+    }
+    figcaption {
+        display: none;
+    }
+
+   }

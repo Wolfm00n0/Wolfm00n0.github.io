@@ -1,0 +1,13 @@
+@media print {
+    body {
+        background-color: none;
+        color: black;
+        font-size: 1.5em;
+    }
+    h1, footer {
+        display: none;
+    }
+    p {
+        color: black;
+    }
+}

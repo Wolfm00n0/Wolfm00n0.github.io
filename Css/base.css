@@ -1,0 +1,46 @@
+body {
+    background-color:rgb(27,27,27); /*Errie Black */
+    color: rgb(65,105,225); 
+    font-size: 1.5em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Navbar links */
+.bottomNav a {
+    display: inline;
+    color: rgb(65,105,225);
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  /* Links - change color on hover */
+  .bottomNav a:hover {
+    background-color: rgb(28,40,65);
+    color: rgb(65,105,225);
+  }
+
+div#footer {
+    position: fixed;
+    bottom: 0rem;
+	left:0;
+    text-align: center;
+    /* grid-row: span 1;
+        grid-column: span 4; */
+    width: 100%;
+    background-color: rgb(27,27,27);
+    padding: 14px 16px;
+    /* height: 10% */
+}
+
+div#footer nav {
+    text-align: center!important;
+}
+.hr1{border:solid 1px blue; width: 50%; margin-top:2rem;margin-bottom:2rem;}
+.hr2{border:dashed 1px blue; margin-top:2rem;margin-bottom:2rem;}
+
+@media print, (max-aspect-ratio: 1/1) {
+    body {
+       font-size: 1em;
+    }
+   }
+   

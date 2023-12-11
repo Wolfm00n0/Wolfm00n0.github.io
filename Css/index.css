@@ -1,0 +1,61 @@
+@import url(base.css);
+
+body {
+    width: 90%;
+    min-width: 640px;
+    max-width: 1024px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    display: block;
+}
+
+
+div#grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 40px;
+
+}
+
+
+div#image {
+    text-align: center;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+article#body {
+    grid-row: span 2;
+    grid-column: span 2;
+    color: deepskyblue;
+    line-height: 2.5rem;
+}
+
+.img1 {
+    max-width: 100%;
+}
+
+@media print, (max-aspect-ratio: 1/1) {
+    div#grid {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, auto);
+        grid-gap: 40px;
+
+    }
+
+    div#image {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    article#body {
+        grid-row: 2;
+        grid-column: 1;
+    }
+}

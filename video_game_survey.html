@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="Css/video_games.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <form id="survey"
+        action="file:///C:/Users/s.barnett/Documents/GitHub/html-tutorial-1-Wolfm00n0/final_project/index.html"
+        method="post">
+        <fieldset id="gameReview">
+            <legend>Vidoe Game Survey</legend>
+            <select name="choosegame" id="game" type="dishType">
+                <datalist id="dishType">
+                    <option>Choose a Video Game</option>
+                    <option value="1">Corral Island by Stairway Games</option>
+                    <option value="2">Assassin's Creed Valhalla by Ubisoft</option>
+                    <option value="3">Minecraft by Microsoft</option>
+                </datalist>
+            </select>
+            <div class="newRow">
+                <label>What consoles do you game on</label>
+                <br>
+            <input type="checkbox" id="console1" name="console1" value="Xbox">
+                <label for="check1"> Xbox</label><br>
+                <input type="checkbox" id="console2" name="console2" value="Play_Station">
+                <label for="vehicle3"> Play Station</label><br>
+                <input type="checkbox" id="console3" name="console3" value="PC">
+                <label for="vehicle3"> PC</label><br>
+                <input type="checkbox" id="console4" name="console4" value="Nintendo_Switch">
+                <label for="vehicle3"> Nintendo Switch</label><br>
+                </div>
+            <div class="newRow">
+                <label for="recgame">Please enter the title of the game you reviewed</label>
+                <br>
+                <input id="recgame" name="rec" type="text" required />
+            </div>
+            <div class="newRow">
+                <label>What is the genre of your book</label>
+                <br>
+                <input type="checkbox" id="ggenre1" name="ggenre1" value="Action">
+                <label for="vehicle1"> Action</label>
+                <input type="checkbox" id="ggenre2" name="ggenre2" value="Horror">
+                <label for="vehicle2"> Horror</label>
+                <input type="checkbox" id="ggenre3" name="ggenre3" value="Simulator">
+                <label for="vehicle3"> Simulator</label><br>
+                <input type="checkbox" id="ggenre4" name="ggenre4" value="RPG">
+                <label for="vehicle3"> RPG</label>
+                <input type="checkbox" id="ggenre5" name="ggenre5" value="Strategy">
+                <label for="vehicle3"> Strategy</label>
+                <input type="checkbox" id="ggenre6" name="ggenre6" value="Casual">
+                <label for="vehicle3"> Casual</label><br>
+                <input type="checkbox" id="ggenre7" name="ggenre7" value="Fighting">
+                <label for="vehicle3"> Fighting</label>
+                <input type="checkbox" id="ggenre8" name="ggenre8" value="Shooter">
+                <label for="vehicle3"> Shooter</label>
+                <input type="checkbox" id="ggenre9" name="ggenre9" value="Sports">
+                <label for="vehicle3"> Sports</label><br>
+            <div>
+            <div class="formRow">
+                <label>Did you like the Game</label>
+                <fieldset class="quest1">
+                    <label for="fYes">Yes</label>
+                    <input name="qGame" id="fYes" value="yes" type="radio" />
+                    <label for="fNo">No</label>
+                    <input name="qGame" id="fNo" value="no" type="radio" />
+                </fieldset>
+                <div class="formRow">
+                    <label>Would You Recommend the Game?</label>
+                    <fieldset class="quest2">
+                       <label for="fYes">Yes</label>
+                       <input name="qGame2" id="fYes" value="yes" type="radio" />
+                       <label for="fNo">No</label>
+                       <input name="qGame2" id="fNo" value="no" type="radio" />
+                    </fieldset>
+                <div>
+                    <div class="formRow">
+                        <label>Was the Game Worth the Price?</label>
+                        <fieldset class="quest3">
+                           <label for="fYes">Yes</label>
+                           <input name="qGame3" id="fYes" value="yes" type="radio" />
+                           <label for="fNo">No</label>
+                           <input name="qGame3" id="fNo" value="no" type="radio" />
+                        </fieldset>
+                    <label for="box">Pleae Enter Your Review of the Game</label>
+                    <br>
+                    <textarea name="reviewbox" id="box" required></textarea>
+                </div>
+                <div class="newRow">
+                    <input type="submit" value="Submit review" />
+                </div>
+        </fieldset>
+    </form>
+    <div id="footer">
+        <footer>
+            <nav class="bottomNav">
+                <a class="active" href="index.html">Home</a>
+                <a href="about_me.html">About Me</a>
+                <a href="book_survey.html">Book Survey</a>
+                <a href="video_game_survey.html">Video Game Survey</a>
+                <a href="wolf.html">Wolf</a>
+                <a href="schedule.html">Schedule</a>
+            </nav>
+        </footer>
+    </div>
+</body>

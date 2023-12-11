@@ -1,0 +1,19 @@
+@import url(base.css);
+
+input {
+    font-size: 1em;
+    
+}
+textarea {
+    font-size: 1em;
+    width: 700px;
+    height: 200px;
+}
+select {
+    font-size: 1em;
+}
+blockquote {
+    text-align: left;
+    font-style: bold;
+    color:  silver;
+}
